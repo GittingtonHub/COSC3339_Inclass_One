@@ -61,6 +61,7 @@ def curve_scores(scores):
     int i = 0
     while i < len(scores):
         scores[i] *= 1.05
+        i+=1
     return scores
 
 

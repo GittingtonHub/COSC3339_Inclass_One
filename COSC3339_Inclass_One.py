@@ -59,7 +59,7 @@ def calculate_shipping_cost(weight, destination):
 def curve_scores(scores):
 
     int i = 0
-    while i < scores.len:
+    while i < len(scores):
         scores[i] *= 1.05
     return scores
 

@@ -79,7 +79,7 @@ def _validate_input(text_value):
     return valud_imput
 
 def process_user_data(text_value):
-    return _validate_imput("test")
+    return _validate_input("test")
 
 
 def main():

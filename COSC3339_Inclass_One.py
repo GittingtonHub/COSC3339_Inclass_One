@@ -11,6 +11,7 @@ branches to simulate merge conflicts.
 """
 
 import math
+import random
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def calculate_hypotenuse(side_a, side_b):
@@ -60,7 +61,7 @@ def curve_scores(scores):
 
     
     for i in scores:
-        i *= 1.05
+        i = random.randint(1,10)
     return scores
 
 
